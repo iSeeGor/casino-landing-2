@@ -1,10 +1,16 @@
 .front-slider {
 
 	// margin-bottom: 40px;
+	// min-height: 400px;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
 	background-color: $colorBodyBg;
+
+	@media (max-width: 767px){
+		
+		// min-height: 200px;
+	}
 
 	&__item {
 
@@ -27,6 +33,7 @@
 			
 			// max-width: inherit;
 			width: 100%;
+			display: block;
 			// height: 100%;
 			// object-fit: cover;
 		}

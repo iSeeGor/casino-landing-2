@@ -907,6 +907,7 @@ table.table--yellow td:last-child {
 }
 .front-slider__item img {
   width: 100%;
+  display: block;
 }
 
 .section {
